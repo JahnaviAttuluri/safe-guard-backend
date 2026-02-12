@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 import pickle
@@ -31,7 +30,7 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
-=======
+
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 import pickle
@@ -64,4 +63,3 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
->>>>>>> 20189bdae2f34f128ee05ce214f0535daa40af59
